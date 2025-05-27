@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobRinger</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images.png" alt="JobRinger Logo" />
+    </div>
+    <nav class="nav-links">
+      <a href="#">My Dashboard</a>
+      <a href="#">Jobs</a>
+      <a href="#">Jobseeker Services</a>
+      <a href="#">Jobseeker Subscription</a>
+    </nav>
+
+    <div class="nav-actions">
+      <i id="bell" data-lucide="bell-ring" class="icon bell"></i>
+      <button class="btn login">Login</button>
+      <button class="btn signup">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- Hero Section with Spline Background -->
+  <div class="hero-section">
+    <spline-viewer url="https://prod.spline.design/dyL6NVNaGk5oAC9r/scene.splinecode"></spline-viewer>
+    <div class="hero-content">
+  <h1>BRINGING YOU THE <span>PERFECT JOB!</span></h1>
+  <p>11,000+ jobs to Apply</p>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search by job title, skills, or company..." />
+    <button class="btn search">Search</button>
+    <button class="btn view">View Jobs</button>
+    <button class="btn register">Register for Free</button>
+  </div>
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>
