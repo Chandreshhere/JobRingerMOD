@@ -5,10 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JobRinger</title>
   <link rel="stylesheet" href="style.css" />
-  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.97/build/spline-viewer.js"></script>
 </head>
 <body>
+
   <!-- Header -->
   <header class="navbar">
     <div class="logo">
@@ -28,13 +31,15 @@
     </div>
   </header>
 
-  <!-- Hero Section with Spline Background -->
-  <div class="hero-section">
+
+<!-- Hero Section -->
+  <section class="hero-section">
     <spline-viewer url="https://prod.spline.design/dyL6NVNaGk5oAC9r/scene.splinecode"></spline-viewer>
     <div class="hero-content">
   <h1>BRINGING YOU THE <span>PERFECT JOB!</span></h1>
   <p>11,000+ jobs to Apply</p>
-
+  
+<section>
   <div class="search-bar">
     <input type="text" placeholder="Search by job title, skills, or company..." />
     <button class="btn search">Search</button>
@@ -42,9 +47,167 @@
     <button class="btn register">Register for Free</button>
   </div>
 </div>
+</section>
 
 
+<section class="featured-jobs-section" id="featured-jobs">
+  <h2>Featured Jobs</h2>
+  <div class="carousel-container">
+    <button class="carousel-btn left">&#10094;</button>
+    <div class="carousel-track">
 
-  <script src="app.js"></script>
+      <div class="job-card"> 
+        <h3>UI/UX Designer</h3>
+        <p><i class="fa-solid fa-briefcase"></i>Full-time</p>
+        <p><i class="fa-solid fa-location-dot"></i>Delhi/Pune</p>
+        <p><i class="fa-solid fa-clock"></i>1-3 Years</p>
+        <button class="apply-btn">Apply</button> </div>
+
+      <div class="job-card">
+        <h3>Frontend Dev</h3>
+        <p><i class="fa-solid fa-briefcase"></i>Part-time</p>
+        <p><i class="fa-solid fa-location-dot"></i>Bangalore/Hydrabad/Kerala</p> 
+        <p><i class="fa-solid fa-clock"></i>0-1 Years</p>
+        <button class="apply-btn">Apply</button> </div>
+        
+      <div class="job-card"> 
+        <h3>Backend Dev</h3> 
+        <p><i class="fa-solid fa-briefcase"></i>Full-time</p> 
+        <p><i class="fa-solid fa-location-dot"></i>Remote</p>
+        <p><i class="fa-solid fa-clock"></i>0-3 Years</p> 
+        <button class="apply-btn">Apply</button> </div>
+
+      <div class="job-card"> 
+       <h3>Data Analyst</h3> 
+       <p><i class="fa-solid fa-briefcase"></i>Full-time</p> 
+       <p><i class="fa-solid fa-location-dot"></i>Mumbai/Pune</p>
+       <p><i class="fa-solid fa-clock"></i>1-4 Years</p> 
+       <button class="apply-btn">Apply</button> </div>
+    </div>
+    <button class="carousel-btn right">&#10095;</button>
+  </div>
+</section>
+
+<!-- Feature employe section -->
+
+<section>
+
+<div class="featuredEmployer">
+  <h2>Featured Employers</h2>
+  <div class="featureEmployerSlide">
+    <img src="colladome.jpg"/>
+    <img src="Humanli.png"/>
+    <img src="lotus interworks.jpg"/>
+    <img src="mintly_logo.jpg"/>
+    <img src="the_knot_company_logo.jpg"/>
+    <img src="varmoda_tech_logo.jpg"/>
+  </div>
+  <div class="featureEmployerSlide">
+    <img src="colladome.jpg"/>
+    <img src="Humanli.png"/>
+    <img src="lotus interworks.jpg"/>
+    <img src="mintly_logo.jpg"/>
+    <img src="the_knot_company_logo.jpg"/>
+    <img src="varmoda_tech_logo.jpg"/>
+  </div>
+</div>
+</section>
+
+<!-- Download section -->
+  <div class="blur-overlay" id="blurOverlay"></div>
+  <section>
+  <div class="container">
+    <div class="spline-bg">
+      <spline-viewer url="https://prod.spline.design/fIgcH2HAHc1cZMQi/scene.splinecode"></spline-viewer>
+    </div>
+    <div class="content">
+      <h1>APPLY TO JOBS ON-THE-GO</h1>
+      <p>Recruit Smart</p>
+      <p><b>Recruit Right</b></p>
+      <p class="text"></p>
+
+      <button class="download-btn">Download Now</button>
+<div class="wrapper">
+  <div class="containerLeft">
+  <h2>JOBS IN INDIA</h2>
+  <p>
+    <span class="hashtag">#Mumbai</span>
+    <span class="hashtag">#Delhi</span>
+    <span class="hashtag">#Ajmer</span>
+    <span class="hashtag">#Pune</span>
+    <span class="hashtag">#Hyderabad</span>
+    <span class="hashtag">#Agra</span>
+    <span class="hashtag">#Chennai</span>
+    <span class="hashtag">#Kolkata</span>
+    <span class="hashtag">#Indore</span>
+    <span class="hashtag">#Gurugram</span>
+    <span class="hashtag">#Jaipur</span>
+    <span class="hashtag">#Ahmedabad</span>
+  </p>
+</div>
+
+<div class="containerRight">
+  <h2>INTERNATIONAL JOBS</h2>
+  <p>
+    <span class="hashtag">#Africa</span>
+    <span class="hashtag">#USA</span>
+    <span class="hashtag">#UK</span>
+    <span class="hashtag">#Australia</span>
+    <span class="hashtag">#Canada</span>
+    <span class="hashtag">#Singapore</span>
+    <span class="hashtag">#Dubai</span>
+    <span class="hashtag">#Saudi Arabia</span>
+    <span class="hashtag">#New Zealand</span>
+  </p>
+</div>
+</div>
+    </div>
+  </div>
+
+  </section>
+
+  <!--FOOTER -->
+
+  <footer class="site-footer">
+
+<div class="stats">
+  <div>Jobs Posted<br><span id="jobsPosted">657</span></div>
+  <div>Jobs Filled<br><span id="jobsFilled">412</span></div>
+  <div>Employers<br><span id="employers">3543</span></div>
+  <div>Active Users<br><span id="activeUsers">546384</span></div>
+</div>
+
+  <div class="disclaimer">
+    <p>Recognized by <span class="startup-india">#startupindia</span></p>
+  </div>
+
+  <div class="footer-links">
+    <p>Follow us on</p>
+    <div class="social-icons">
+      <i class="fab fa-whatsapp"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+  </div>
+
+  <div class="footer-nav">
+    <a href="#">Terms and Conditions</a> | 
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Refund / Cancellation Policy</a> | 
+    <a href="#">Contact Us</a> | 
+    <a href="#">FAQ</a> | 
+    <a href="#">Blogs</a>
+  </div>
+
+  <p class="copyright">
+    &copy; All Rights Reserved @ 2025 MOON.
+  </p>
+</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="app.js" defer></script>
 </body>
 </html>
